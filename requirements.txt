@@ -1,0 +1,4 @@
+uvicorn
+dotenv
+google-genai
+pydantic
