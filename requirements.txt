@@ -1,4 +1,6 @@
-uvicorn
-dotenv
+python-dotenv
+fastapi
 google-genai
 pydantic
+pydantic-settings
+uvicorn

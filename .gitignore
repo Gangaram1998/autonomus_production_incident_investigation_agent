@@ -2,8 +2,7 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
+*$py.class
 *.so
 
 # Virtual environment
@@ -23,32 +22,31 @@ htmlcov/
 
 # Type checking and linting
 .mypy_cache/
-.pyright/
 .ruff_cache/
+.pyright/
 
-# Logs
-*.log
-logs/
-
-# IDEs and editors
+# IDE and editor
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# OS files
-.DS_Store
-Thumbs.db
+# Logs
+*.log
+logs/
 
-# Build artifacts
+# Build and distribution
 build/
 dist/
 *.egg-info/
 
-# Database files
-*.db
-*.sqlite3
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Temporary files
-tmp/
-temp/
+*.tmp
+*.bak
