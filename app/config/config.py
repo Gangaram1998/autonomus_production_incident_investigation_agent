@@ -11,3 +11,6 @@ class Settings(BaseSettings):
         env_file_encoding="utf-s",
         extra="ignore"
     )
+
+
+config = Settings()
