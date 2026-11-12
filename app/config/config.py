@@ -13,4 +13,4 @@ class Settings(BaseSettings):
     )
 
 
-config = Settings()
+settings = Settings()
